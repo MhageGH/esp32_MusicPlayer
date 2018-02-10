@@ -14,7 +14,7 @@ void I2S_Init() {
 
   i2s_pin_config_t pin_config = {
     .bck_io_num = PIN_I2S_BCLK,
-    .ws_io_num = PIN_I2S_LSR,
+    .ws_io_num = PIN_I2S_LRC,
     .data_out_num = PIN_I2S_DOUT,
     .data_in_num = -1   //Not used
   };
