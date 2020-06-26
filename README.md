@@ -15,5 +15,5 @@
 - [arduino-esp32](https://github.com/espressif/arduino-esp32)
 
 ## How to use
-Set SD card with "sound.wav" (44100Hz, 16bit, stereo, linear PCM).
+Set SD card with "sound.wav" (44100Hz, 16bit, linear PCM).
 Only turn on the power.
