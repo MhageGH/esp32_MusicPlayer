@@ -8,7 +8,7 @@ char stereoData[1600];
 
 void setup() {
   SD.begin();
-  File file = SD.open("/sound_s.wav");  // 44100Hz, 16bit, linear PCM
+  File file = SD.open("/sound.wav");  // 44100Hz, 16bit, linear PCM
   file.seek(22);
   int ch = file.read();
   file.seek(offset);
